@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 100;
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+
+        .highlight-label {
+            background-color: yellow;
+        }
+
+        .highlight-elective {
+            background-color: lightgreen;
+        }
+
+        .break {
+            baclground-color: lightgray;
+        }
+
+        .header,
+        .footer {
+            background-color: lightblue;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="3">Time</th>
+                <th colspan="6">Monday to saturday</th>
+            </tr>
+
+            <tr>
+                <th>Monaday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>saturday</th>
+            </tr>
+            <tr>
+                <th colspan="6">Time Table Schedule For the Academic Year Odd Semister 2024-25</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>9:00-10:00</td>
+                <td class="highlight-elective">Data Structure</td>
+                <td class="highlight-elective">Computer Networks</td>
+                <td class="highlight-elective">Data Science</td>
+                <td class="highlight-elective">SEMP</td>
+                <td class="highlight-elective">Data Structure</td>
+                <td class="highlight-elective">Computer Networks</td>
+            </tr>
+            <tr>
+                <td>10:00-11:00</td>
+                <td class="highlight-elective">Data Structure</td>
+                <td class="highlight-elective">Computer Networks</td>
+                <td class="highlight-elective">Data Science</td>
+                <td class="highlight-elective">SEMP</td>
+                <td class="highlight-elective">Data Structure</td>
+                <td class="highlight-elective">Computer Networks</td>
+            </tr>
+            <tr class="break">
+                <td class="break">11:00-11:10</td>
+                <td class="break" colspan="6">Short Break</td>
+            </tr>
+            <tr>
+                <td>11:10-12:10</td>
+                <td class="highlight-elective">Data Structure</td>
+                <td class="highlight-elective">Computer Networks</td>
+                <td class="highlight-elective">Data Science</td>
+                <td class="highlight-elective">SEMP</td>
+                <td class="highlight-elective">Data Structure</td>
+                <td class="highlight-elective">Computer Networks</td>
+            </tr>
+            <tr>
+                <td>12:10-01:10</td>
+                <td class="highlight-elective">Data Structure</td>
+                <td class="highlight-elective">Computer Networks</td>
+                <td class="highlight-elective">Data Science</td>
+                <td class="highlight-elective">SEMP</td>
+                <td class="highlight-elective">Data Structure</td>
+                <td class="highlight-elective">Computer Networks</td>
+            </tr>
+            <tr class="break">
+                <td class="break">01:10-2:00</td>
+                <td class="break" colspan="6">Short Break</td>
+            </tr>
+            <tr>
+                <td>12:10-01:10</td>
+                <td class="highlight-elective">Data Structure</td>
+                <td class="highlight-elective">Computer Networks</td>
+                <td class="highlight-elective">Data Science</td>
+                <td class="highlight-elective">SEMP</td>
+                <td class="highlight-elective">Data Structure</td>
+                <td class="highlight-elective">Computer Networks</td>
+            </tr>
+            <tr>
+                <td>12:10-01:10</td>
+                <td class="highlight-elective">Data Structure</td>
+                <td class="highlight-elective">Computer Networks</td>
+                <td class="highlight-elective">Data Science</td>
+                <td class="highlight-elective">SEMP</td>
+                <td class="highlight-elective">Data Structure</td>
+                <td class="highlight-elective">Computer Networks</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="7" class="footer">End Of Time Table Table</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
